@@ -16,7 +16,6 @@ function Overview({route}) {
     <View>
         <Text>My Meals</Text>
         {/* <Text>{id}</Text> */}
-        <Text>Not showing</Text>
         <OverviewItems theMeals={displayMeals} />
     </View>
   )
